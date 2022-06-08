@@ -1,0 +1,86 @@
+//Header
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+//Navbar
+.navbar {
+  background-color: #003f5c !important;
+
+  .navbar-brand {
+    color: #fff !important;
+  }
+
+  .nav-link {
+    color: #fff !important;
+  }
+}
+
+//content
+.content {
+  padding-top: 80px;
+}
+button {
+  background-color: #0e709e;
+  box-shadow: none;
+  border: 1px solid white;
+  border-radius: 3px;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  &:hover {
+    background-color: rgb(32, 179, 45);
+  }
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+a {
+  text-decoration: none;
+}
+
+input,
+select {
+  height: 35px !important;
+}
+
+.form-control {
+  margin: 5px;
+}
+
+.del,
+.rem {
+  cursor: pointer;
+}
+
+.nav-tabs {
+  background-color: cadetblue;
+}
+.nav-item:hover {
+  background-color: rgb(64, 132, 134);
+}
+
+@media screen and (min-width: 1000px) {
+  .left {
+    position: absolute;
+    right: 0;
+  }
+}
+
+//Footer
+.footer {
+  width: 100%;
+  text-align: center;
+  background-color: #003f5c;
+  color: white;
+  padding: 5px;
+}
